@@ -1,0 +1,71 @@
+.snow-editor-color {
+	width: 40px;
+	height: 40px;
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-right: 2px;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	background-color: var(--color-black-440);
+
+	&_selected {
+		border: 1px solid var(--color-primary-700, var(--snow-primary-color1));
+		background-color: var(--color-black-300);
+	}
+
+	&:hover {
+		border: 1px solid var(--color-primary-700, var(--snow-primary-color1));
+	}
+
+	&[data-value="1"] {
+		background-image: url("./img/paint_1.png");
+	}
+
+	&[data-value="2"] {
+		background-image: url("./img/paint_2.png");
+	}
+
+	&[data-value="3"] {
+		background-image: url("./img/paint_3_v2.png");
+	}
+
+	&[data-value="4"] {
+		background-image: url("./img/paint_4.png");
+	}
+
+	&[data-value="5"] {
+		background-image: url("./img/paint_5.png");
+	}
+
+	&[data-value="6"] {
+		background-image: url("./img/paint_6.png");
+	}
+
+	&[data-value="7"] {
+		background-image: url("./img/paint_7.png");
+	}
+
+	&[data-value="8"] {
+		background-image: url("./img/paint_8.png");
+	}
+
+	&[data-value="9"] {
+		background-image: url("./img/paint_9.png");
+	}
+
+	&[data-value="10"] {
+		background-image: url("./img/paint_10.png");
+	}
+
+	&[data-value="11"] {
+		background-image: url("./img/paint_11.png");
+	}
+
+	&[data-value="12"] {
+		background-image: url("./img/paint_12.png");
+	}
+
+}

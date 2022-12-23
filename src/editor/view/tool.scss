@@ -1,0 +1,38 @@
+.snow-editor-tool {
+	width: 55px;
+	height: 55px;
+	background-size: 48px 48px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-right: 2px;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	background-color: var(--color-black-440);
+
+	&_selected {
+		border: 1px solid var(--color-primary-700, var(--snow-primary-color1));
+		background-color: var(--color-black-300);
+	}
+
+	&:hover {
+		border: 1px solid var(--color-primary-700, var(--snow-primary-color1));
+	}
+
+	&[data-role="add"] {
+		background-image: url("./img/tool1.png");
+	}
+
+	&[data-role="erase"] {
+		background-image: url("./img/tool4.png");
+	}
+
+	&[data-role="paint"] {
+		background-image: url("./img/tool5.png");
+	}
+
+	&[data-role="props"] {
+		background-image: url("./img/tool6.png");
+	}
+}
